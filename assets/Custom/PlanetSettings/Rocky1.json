@@ -1,0 +1,60 @@
+{
+  "isAsteroid": false,
+  "specularShine": 1.0,
+  "noiseFilters": [
+    {
+      "offset": { "x": 0, "y": 0, "z": 0 },
+      "amplitude": 0.3,
+      "useFirstAsMask": false,
+      "minValue": 0.5,
+      "noiseParams": {
+        "fractalType": "FBm",
+        "frequency": 1.3,
+        "octaves": 4,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "weight": 0,
+        "pingPong": 2.0
+      }
+    },
+    {
+      "offset": { "x": 0, "y": 0, "z": 0 },
+      "amplitude": 0.1,
+      "useFirstAsMask": true,
+      "minValue": 0.3,
+      "noiseParams": {
+        "fractalType": "FBm",
+        "frequency": 2,
+        "octaves": 4,
+        "lacunarity": 3.0,
+        "gain": 0.5,
+        "weight": 0,
+        "pingPong": 2.0
+      },
+      "warpParams": {
+        "fractalType": "DWIndependent",
+        "frequency": 0.2,
+        "octaves": 3,
+        "lacunarity": 3.5,
+        "gain": 0.5,
+        "weight": 0.5,
+        "pingPong": 2.0
+      }
+    },
+    {
+      "offset": { "x": 0, "y": 0, "z": 0 },
+      "amplitude": 1.5,
+      "useFirstAsMask": true,
+      "minValue": 0.4,
+      "noiseParams": {
+        "fractalType": "Ridged",
+        "frequency": 2.0,
+        "octaves": 4,
+        "lacunarity": 2.0,
+        "gain": 0.5,
+        "weight": 0.9,
+        "pingPong": 2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Put in the names of files to load as PlanetSettings.
+
+Asteroid1.json
+Asteroid2.json
+Rocky1.json

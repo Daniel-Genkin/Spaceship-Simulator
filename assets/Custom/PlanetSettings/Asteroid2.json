@@ -1,0 +1,63 @@
+{
+  "isAsteroid": true,
+  "specularShine": 75.0,
+  "gradient": {
+    "minVal": 0,
+    "maxVal": 1,
+    "colours": [
+      { "rgba": [0.024, 0.051, 0.82, 1] },
+      { "rgba": [0.224, 0.235, 0.561, 1] },
+      { "rgba": [0.361, 0.361, 0.42, 1] },
+      { "rgba": [0.306, 0.306, 0.373, 1] },
+      { "rgba": [0.216, 0.216, 0.263, 1] }
+    ],
+    "positions": [0, 0.15, 0.25, 0.6, 1]
+  },
+  "noiseFilters": [
+    {
+      "offset": { "x": 0, "y": 0, "z": 0 },
+      "amplitude": 0.8,
+      "useFirstAsMask": false,
+      "minValue": 0,
+      "noiseParams": {
+        "fractalType": "FBm",
+        "frequency": 0.4,
+        "octaves": 4,
+        "lacunarity": 1.7,
+        "gain": 0.5,
+        "weight": 0.0,
+        "pingPong": 2.0
+      }
+    },
+    {
+      "offset": { "x": 0, "y": 0, "z": 0 },
+      "amplitude": 0.15,
+      "useFirstAsMask": true,
+      "minValue": 0.3,
+      "noiseParams": {
+        "fractalType": "FBm",
+        "frequency": 2.0,
+        "octaves": 4,
+        "lacunarity": 3.0,
+        "gain": 0.5,
+        "weight": 0.0,
+        "pingPong": 2.0
+      }
+    },
+    {
+      "offset": { "x": 0, "y": 0, "z": 0 },
+      "amplitude": -0.15,
+      "useFirstAsMask": false,
+      "minValue": 0.3,
+      "noiseParams": {
+        "fractalType": "Ridged",
+        "frequency": 1.0,
+        "octaves": 4,
+        "lacunarity": 3.0,
+        "gain": 0.5,
+        "weight": 0.0,
+        "pingPong": 2.0
+      }
+    }
+  ]
+}

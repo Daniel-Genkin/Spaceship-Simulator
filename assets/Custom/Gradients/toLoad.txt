@@ -1,0 +1,5 @@
+# Put in the names of files to load as Gradients.
+
+EarthLike.json
+Alien1.json
+Tropical1.json
