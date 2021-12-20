@@ -2,6 +2,8 @@
 
 A spaceship simulator with procedurally generated planets, asteroids and quests.
 
+This project was built as part of my COMPSCI 3GC3 course at McMaster University. The task was to build a C++ project that uses the OpenGL Fixed Pipeline to render a 3D environment, game or simulation. My group, consisting of three poeple lead by me, achieved a final mark of 130% as we successfully implemented all the required features as well as several additional bonus features. Code quality was marked generously as the main focus of the course was graphics. Thus, there are several improvement we could make to the code quality for maintainability and extendability in the future.
+
 ![screenshot of simulation](./assets/ReadmeRelated/main.png)
 ![screenshot of instructions](./assets/ReadmeRelated/instructions.png)
 ![screenshot of quests](./assets/ReadmeRelated/quests.png)
